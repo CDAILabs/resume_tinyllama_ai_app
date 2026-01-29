@@ -1,0 +1,24 @@
+📁 Project Structure (Windows-Friendly)
+resume_ai_app/
+│
+├── app.py                    # Entry point
+├── ui/
+│   ├── main_window.py
+│   ├── resume_tab.py
+│   ├── cover_letter_tab.py
+│
+├── core/
+│   ├── __init__
+│   ├── cover_letter.py
+│   ├── keyword_engine.py
+│   ├── matcher.py
+│   ├── parser.py
+│
+├── llm/
+│   └── __init__
+│   └──	llama_mistral_client.py
+│
+├── assets/
+│
+└── requirements.txt
+________________________________________
